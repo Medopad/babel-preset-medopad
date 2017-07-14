@@ -1,0 +1,20 @@
+{
+  "name": "babel-preset-medopad",
+  "version": "0.0.0",
+  "description": "Medopad's Babel preset.",
+  "keywords": [
+    "babel",
+    "babelpreset",
+    "medopad"
+  ],
+  "license": "MIT",
+  "author": "Julius Osokinas <julius.osokinas@medopad.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medopad/babel-preset-medopad.git"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  }
+}
