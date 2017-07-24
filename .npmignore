@@ -3,3 +3,6 @@
 
 # Travis CI setup
 .travis.yml
+
+# Current package's ESLint config
+.eslintrc.js

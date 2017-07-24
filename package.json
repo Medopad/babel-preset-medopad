@@ -16,5 +16,8 @@
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=5.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-medopad": "^3.4.0"
   }
 }
