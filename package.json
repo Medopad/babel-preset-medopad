@@ -13,11 +13,25 @@
     "type": "git",
     "url": "https://github.com/medopad/babel-preset-medopad.git"
   },
+  "main": "index.js",
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=5.0.0"
   },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-exponentiation-operator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0"
+  },
   "devDependencies": {
-    "eslint-config-medopad": "^3.4.0"
+    "eslint-config-medopad": "^3.4.0",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "test": "eslint . && mocha *.test.js",
+    "preversion": "npm test"
   }
 }
