@@ -11,11 +11,11 @@ describe('Medopad\'s Babel preset', () => {
     should(preset).have.property('plugins')
   })
 
-  it('should have 1 preset listed', () => {
+  it('should have all required presets listed', () => {
     should(preset.presets.length).equal(1)
   })
 
-  it('should have 4 plugins listed', () => {
+  it('should have all required plugins listed', () => {
     should(preset.plugins.length).equal(4)
   })
 })
