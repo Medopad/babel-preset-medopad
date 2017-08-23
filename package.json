@@ -5,7 +5,8 @@
   "keywords": [
     "babel",
     "babelpreset",
-    "medopad"
+    "medopad",
+    "ecmascript"
   ],
   "license": "MIT",
   "author": "Julius Osokinas <julius.osokinas@medopad.com>",
