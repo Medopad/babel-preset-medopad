@@ -7,6 +7,16 @@
 
 This is [Medopad](http://medopad.com)'s [Babel](https://babeljs.io) preset.
 
+## Plugins
+
+[transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) allows the use of exponentiation operators.
+
+[transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread) allows the use of rest properties for object destructuring assignment and spread properties for object literals. Built-ins usage is enabled by default.
+
+[transform-class-properties](https://babeljs.io/docs/plugins/transform-class-properties) allows the use of class properties.
+
+[transform-runtime](https://babeljs.io/docs/plugins/transform-runtime) externalizes references to helpers and built-ins, automatically polyfilling the code without polluting globals.
+
 ## Install
 
 [Shareable presets](https://babeljs.io/docs/plugins/#presets) are designed to work with the `presets` feature of `.babelrc` files.
