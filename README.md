@@ -37,6 +37,20 @@ Then, add this to your `.babelrc` file:
 
 You can override settings from the shareable preset by adding them directly into your `.babelrc` file.
 
+### Use with ESLint
+
+If you wish to use [ESLint](https://github.com/eslint/eslint), install the parser:
+
+```
+npm install babel-eslint --save-dev
+```
+
+Then, add this to your `.eslintrc` file:
+
+```
+parser: "babel-eslint"
+```
+
 ## Develop
 
 ### Test
