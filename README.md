@@ -51,6 +51,27 @@ Then, add this to your `.eslintrc` file:
 parser: "babel-eslint"
 ```
 
+### Use with webpack
+
+If you wish to use [webpack](https://github.com/webpack/webpack), install the loader:
+
+```
+npm install babel-loader --save-dev
+```
+
+Then, add this to your `webpack.config.js` file:
+
+```javascript
+module: {
+  loaders: [
+    {
+      test: /\.js$/,
+      loader: 'babel-loader'
+    }
+  ]
+}
+```
+
 ## Develop
 
 ### Test
