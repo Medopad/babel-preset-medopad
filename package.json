@@ -28,9 +28,9 @@
     "babel-preset-env": "^1.6.0"
   },
   "devDependencies": {
-    "eslint-config-medopad": "^3.6.0",
-    "mocha": "^3.5.0",
-    "should": "^11.2.0"
+    "eslint-config-medopad": "^3.7.0",
+    "mocha": "^4.0.0",
+    "should": "^13.1.0"
   },
   "scripts": {
     "test": "eslint . && mocha *.test.js",
